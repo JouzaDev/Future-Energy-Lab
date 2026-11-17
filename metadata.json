@@ -1,0 +1,6 @@
+{
+  "name": "مختبر طاقة المستقبل | Future Energy Lab",
+  "description": "تطبيق تعليمي تفاعلي لدرس البطاريات (كيمياء 3، الصف الثالث الثانوي للبنات، مسابقة المعلم المبتكر 2027) متوافق مع معايير NGSS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

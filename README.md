@@ -1,11 +1,43 @@
-<div align="center">
+# مختبر طاقة المستقبل | Future Energy Lab
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+تطبيق تعليمي تفاعلي متكامل لدرس البطاريات، مادة الكيمياء 3، الصف الثالث الثانوي (طالبات). مقدَّم ضمن مسابقة المعلم المبتكر 2027. متوافق مع معايير NGSS (HS-PS3-3, HS-ETS1-2, HS-ETS1-3).
 
-  <h1>Built with AI Studio</h2>
+- **الشعار**: «من تفاعل كيميائي صغير… تنطلق طاقة تصنع المستقبل.»
+- **السؤال المحوري**: كيف نصمم خلية كهربائية تحول الطاقة الكيميائية إلى كهربائية بكفاءة؟
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+---
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## تشغيل المشروع محلياً
 
-</div>
+1. تثبيت الاعتمادات:
+   ```bash
+   npm install
+   ```
+
+2. تشغيل خادم التطوير (Full-Stack مع Express و Vite):
+   ```bash
+   npm run dev
+   ```
+
+3. بناء الإنتاج والتشغيل:
+   ```bash
+   npm run build
+   npm start
+   ```
+
+---
+
+## متغيرات البيئة (.env)
+- `GEMINI_API_KEY`: مفتاح نموذج Gemini API لتشغيل مساعد طاقة المستقبل الذكي عبر الخادم (`/api/assistant`).
+
+---
+
+## حساب المعلمة الافتراضي
+- للدخول إلى لوحة المعلمة المشرفة:
+  - كلمة المرور: `1234` أو `teacher2027`
+
+---
+
+## المجموعات التجريبية الجاهزة للاختبار
+- رمز المجموعة: `SOLAR27` | رمز PIN: `1234`
+- رمز المجموعة: `VOLT27` | رمز PIN: `5678`

@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    font-family: 'IBM Plex Sans Arabic', system-ui, sans-serif;
+    direction: rtl;
+    text-align: right;
+  }
+}
+
+/* Custom Print Styles for High-Quality Arabic RTL PDF Reports */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-break-before {
+    break-before: page;
+  }
+  .print-shadow-none {
+    box-shadow: none !important;
+    border: 1px solid #cbd5e1 !important;
+  }
+}
+
+/* Custom animations for electron flow and batteries */
+@keyframes electronMove {
+  0% { transform: translateX(0); opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { transform: translateX(120px); opacity: 0.8; }
+}
+
+.animate-electron {
+  animation: electronMove 1.5s infinite linear;
+}
